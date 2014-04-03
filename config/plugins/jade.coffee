@@ -1,12 +1,12 @@
 module.exports = (lineman) ->
   files:
     jade:
-      templates: "app/templates/**/*.jade"
+      templates: "app/**/*.jade"
       generatedTemplate: "generated/template/jade.js"
-      pages: "**/*.jade"
-      pageRoot: "app/pages/"
+      pages: "*.jade"
+      pageRoot: "app"
     template:
-      jade: "app/templates/**/*.jade"
+      jade: "app/**/*.jade"
       generatedJade: "generated/template/jade.js"
     pages:
       source: lineman.config.files.pages.source.concat("!<%= files.jade.pageRoot %>/<%= files.jade.pages %>")

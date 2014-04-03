@@ -1,24 +1,24 @@
 {
-  "name": "lineman-jade",
+  "name": "lineman-jade-goog",
   "title": "Jade plugin for Lineman, using grunt-contrib-jade",
-  "description": "Provide Jade functionality to your Lineman application.",
+  "description": "Provide Jade functionality to your Lineman application based on the Google project structure.",
   "keywords": [
     "lineman",
     "grunt",
     "jade"
   ],
-  "version": "0.1.2",
-  "homepage": "https://github.com/aranasoft/lineman-jade",
-  "author": "Arana Software <info@aranasoft.com> (http://www.aranasoft.com)",
-  "contributors": [
-    "Jay Harris <jay@aranasoft.com>"
-  ],
+  "version": "0.0.1",
+  "homepage": "https://github.com/herculesksp/lineman-jade",
+  "author": {
+    "name": "Prashanth K S",
+    "company": "eMukti"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/aranasoft/lineman-jade.git"
+    "url": "git://github.com/herculesksp/lineman-jade.git"
   },
   "bugs": {
-    "url": "https://github.com/aranasoft/lineman-jade/issues"
+    "url": "https://github.com/herculesksp/lineman-jade/issues"
   },
   "main": "main.js",
   "dependencies": {
